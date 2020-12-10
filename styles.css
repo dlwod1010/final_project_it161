@@ -1,12 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 body {
-  width: 100%;
-  padding: 5px 5px;
+  font-family: Amatic SC, Tahoma, sans-serif;
+  min-width: 375px;
+}
+header {
 }
 .top-bar .lists {
   display: flex;
   justify-content: flex-end;
 }
+.menu-btn {
+  font-size: 20px;
+}
+.search,
+.cart {
+  margin-left: 15px;
+  font-size: 20px;
+}
 .lists > li {
+  font-size: 25px;
   list-style: none;
   margin: 0px 4px;
 }
@@ -17,14 +29,12 @@ a {
 .logo-line {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
+  margin-bottom: 25px;
 }
 .logo-box {
-  /* background-color: #f8c7f9; */
-  border-radius: 30%;
-  width: 13vw;
-  height: 21vh;
   text-align: center;
-  font-size: 25px;
+  font-size: 42px;
 }
 .searchandcart {
   display: flex;
@@ -56,21 +66,37 @@ a {
 .menu-content a:hover {
   background-color: #f8c7f9;
 }
-.main-wrapper {
+.banner {
+  width: 100%;
+  height: 420px;
+}
+.banner > img {
+  width: 100%;
+  height: 100%;
+}
+.new-arrival {
+  font-size: 25px;
+  text-align: center;
+}
+
+.products-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px;
 }
-.shop-items {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 5px;
+.product {
+  flex: 0 24%;
+  height: 100px;
+  margin-bottom: 4%;
+  display: inline-table;
 }
-.item-image img {
-  width: 50px;
-  height: 50px;
+
+.product img {
+  max-width: 100%;
+  max-height: 100%;
 }
-.item-content {
-  background-color: #f8c7f9;
+.product-info {
+  font-size: 23px;
+  text-align: center;
 }
