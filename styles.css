@@ -3,10 +3,6 @@ body {
   font-family: Amatic SC, Tahoma, sans-serif;
   width: 100%;
 }
-.page-top {
-  display: flex;
-  flex-direction: column;
-}
 
 #top-bar .lists {
   display: flex;
@@ -86,13 +82,13 @@ a {
 .products-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
 }
 .product {
-  flex: 0 50%;
+  margin: 1%;
+  width: 48%;
+  /* padding: 5px;
   margin-bottom: 2%;
-  display: inline-table;
+  display: inline-table; */
 }
 
 .product img {
@@ -119,13 +115,8 @@ footer {
   font-size: 30px;
 }
 @media screen and (min-width: 1118px) {
-  .banner {
-  }
   .product {
-    flex: 0 24%;
-    /* height: 100px; */
-    margin-bottom: 4%;
-    display: inline-table;
+    width: 23%;
   }
   a.top-btn > i {
     position: fixed;
