@@ -86,9 +86,9 @@ a {
   width: 100%;
 }
 .product {
-  flex: 0 24%;
-  height: 100px;
-  margin-bottom: 4%;
+  flex: 0 50%;
+  height: 50px;
+  margin-bottom: 2%;
   display: inline-table;
 }
 
@@ -105,7 +105,7 @@ a.top-btn {
 a.top-btn > i {
   position: fixed;
   bottom: 28px;
-  right: 40px;
+  right: 20px;
   font-size: 20px;
   color: gray;
   border-top: 3px solid gray;
@@ -114,4 +114,20 @@ a.top-btn > i {
 footer {
   text-align: center;
   font-size: 30px;
+}
+@media screen and (min-width: 1118px) {
+  .product {
+    flex: 0 24%;
+    height: 100px;
+    margin-bottom: 4%;
+    display: inline-table;
+  }
+  a.top-btn > i {
+    position: fixed;
+    bottom: 28px;
+    right: 40px;
+    font-size: 20px;
+    color: gray;
+    border-top: 3px solid gray;
+  }
 }
