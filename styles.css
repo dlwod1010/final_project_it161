@@ -2,6 +2,7 @@
 body {
   font-family: Amatic SC, Tahoma, sans-serif;
   width: 100%;
+  margin: 0px;
 }
 
 #top-bar .lists {
