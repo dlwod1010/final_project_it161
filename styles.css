@@ -8,6 +8,7 @@ body {
 #top-bar .lists {
   display: flex;
   justify-content: flex-end;
+  margin-right: 10px;
 }
 .menu-btn {
   font-size: 20px;
