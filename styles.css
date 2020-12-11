@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 body {
   font-family: Amatic SC, Tahoma, sans-serif;
-  min-width: 375px;
+  width: 100%;
 }
 
 #top-bar .lists {
@@ -116,6 +116,8 @@ footer {
   font-size: 30px;
 }
 @media screen and (min-width: 1118px) {
+  .banner {
+  }
   .product {
     flex: 0 24%;
     height: 100px;
